@@ -27,7 +27,7 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
 
-	v1beta2 "github.com/openfunction/apis/core/v1beta2"
+	v1beta2 "github.com/rskvp/openfunction/apis/core/v1beta2"
 )
 
 // FakeServings implements ServingInterface

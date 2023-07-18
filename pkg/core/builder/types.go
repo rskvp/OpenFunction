@@ -21,7 +21,7 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	"github.com/openfunction/pkg/core/builder/shipwright"
+	"github.com/rskvp/openfunction/pkg/core/builder/shipwright"
 )
 
 func Registry(mgr ctrl.Manager) []client.Object {

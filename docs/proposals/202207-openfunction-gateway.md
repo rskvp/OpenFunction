@@ -367,7 +367,7 @@ spec:
       FUNC_NAME: "HelloWorld"
       FUNC_CLEAR_SOURCE: "true"
     srcRepo:
-      url: "https://github.com/OpenFunction/samples.git"
+      url: "https://github.com/rskvp/openfunction/samples.git"
       sourceSubPath: "functions/knative/hello-world-go"
       revision: "main"
   serving:

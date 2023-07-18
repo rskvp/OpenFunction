@@ -24,10 +24,10 @@ import (
 	serializer "k8s.io/apimachinery/pkg/runtime/serializer"
 	utilruntime "k8s.io/apimachinery/pkg/util/runtime"
 
-	corev1beta1 "github.com/openfunction/apis/core/v1beta1"
-	corev1beta2 "github.com/openfunction/apis/core/v1beta2"
-	eventsv1alpha1 "github.com/openfunction/apis/events/v1alpha1"
-	networkingv1alpha1 "github.com/openfunction/apis/networking/v1alpha1"
+	corev1beta1 "github.com/rskvp/openfunction/apis/core/v1beta1"
+	corev1beta2 "github.com/rskvp/openfunction/apis/core/v1beta2"
+	eventsv1alpha1 "github.com/rskvp/openfunction/apis/events/v1alpha1"
+	networkingv1alpha1 "github.com/rskvp/openfunction/apis/networking/v1alpha1"
 )
 
 var scheme = runtime.NewScheme()

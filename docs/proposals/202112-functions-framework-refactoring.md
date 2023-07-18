@@ -1,6 +1,6 @@
 ## Motivation
 
-In the previous [proposal](https://github.com/OpenFunction/OpenFunction/blob/main/docs/proposals/202105_add_function_framework.md), we proposed to introduce a framework for OpenFunction to convert "functions" to "applications" - the **functions-framework**. The **functions-framework** did this well in OpenFunction *v0.4.0* and earlier.
+In the previous [proposal](https://github.com/rskvp/openfunction/OpenFunction/blob/main/docs/proposals/202105_add_function_framework.md), we proposed to introduce a framework for OpenFunction to convert "functions" to "applications" - the **functions-framework**. The **functions-framework** did this well in OpenFunction *v0.4.0* and earlier.
 
 However, we need to add some necessary capabilities to function because OpenFunction is evolving and the demand from the community is increasing. We can use functions-framework to implement most of these new features, thanks to the uniqueness of functions-framework in the lifecycle of OpenFunction.
 
@@ -8,11 +8,11 @@ Function tracing capabilities are very typical of these features.
 
 We need to add observability to function, which helps to observe and track the operation of functions in large scale scenarios.
 
-Referring to [#7](https://github.com/OpenFunction/functions-framework/issues/8), we can take the form of a plug-in in the function-frame to wake up the observability component to run at a specific timing.
+Referring to [#7](https://github.com/rskvp/openfunction/functions-framework/issues/8), we can take the form of a plug-in in the function-frame to wake up the observability component to run at a specific timing.
 
-For example, in [functions-framework-go](https://github.com/OpenFunction/functions-framework-go), we can add a plugin hook before and after the function is run, and run the logic related to the observability component in the hook.
+For example, in [functions-framework-go](https://github.com/rskvp/openfunction/functions-framework-go), we can add a plugin hook before and after the function is run, and run the logic related to the observability component in the hook.
 
-Reference [this](https://github.com/OpenFunction/functions-framework-go/blob/81a7b2951b8af0897978dcc483c1217ac98f02fb/functionframeworks/frameworks.go#L133):
+Reference [this](https://github.com/rskvp/openfunction/functions-framework-go/blob/81a7b2951b8af0897978dcc483c1217ac98f02fb/functionframeworks/frameworks.go#L133):
 
 ```go
 func registerHTTPFunction(path string, fn func(http.ResponseWriter, *http.Request), h *http.ServeMux) error {
@@ -30,10 +30,10 @@ This is just a simple demonstration and I will follow up with how to refactor th
 
 ## Associated issueses
 
-- https://github.com/OpenFunction/OpenFunction/issues/146
-- https://github.com/OpenFunction/functions-framework/issues/8
-- https://github.com/OpenFunction/functions-framework/issues/9
-- https://github.com/OpenFunction/functions-framework/issues/12
+- https://github.com/rskvp/openfunction/OpenFunction/issues/146
+- https://github.com/rskvp/openfunction/functions-framework/issues/8
+- https://github.com/rskvp/openfunction/functions-framework/issues/9
+- https://github.com/rskvp/openfunction/functions-framework/issues/12
 
 ## Goals
 
@@ -261,7 +261,7 @@ type Output struct {
 }
 ```
 
-Compared to the existing [Context specification](https://github.com/OpenFunction/functions-framework/blob/main/docs/latest/OpenFunction-context-specs.md), this proposal has the following changes:
+Compared to the existing [Context specification](https://github.com/rskvp/openfunction/functions-framework/blob/main/docs/latest/OpenFunction-context-specs.md), this proposal has the following changes:
 
 - Add `Ctx` to hold the instance of the native standard context library
 - `EventMeta` and `SyncRequestMeta`, which hold metadata information for event requests and http requests
@@ -429,7 +429,7 @@ import (
 	"github.com/fatih/structs"
 	"k8s.io/klog/v2"
 
-	ofctx "github.com/OpenFunction/functions-framework-go/context"
+	ofctx "github.com/rskvp/openfunction/functions-framework-go/context"
 )
 
 const (

@@ -26,8 +26,8 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
 
-	v1beta2 "github.com/openfunction/apis/core/v1beta2"
-	scheme "github.com/openfunction/pkg/client/clientset/versioned/scheme"
+	v1beta2 "github.com/rskvp/openfunction/apis/core/v1beta2"
+	scheme "github.com/rskvp/openfunction/pkg/client/clientset/versioned/scheme"
 )
 
 // FunctionsGetter has a method to return a FunctionInterface.

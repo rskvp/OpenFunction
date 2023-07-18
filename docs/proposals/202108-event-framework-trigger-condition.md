@@ -1,6 +1,6 @@
 ## Motivation
 
-In [events framework proposal](https://github.com/OpenFunction/OpenFunction/blob/main/docs/proposals/202107_add_event_framework.md#filter) we mentioned the need to add conditional judgement capabilities to the event framework's triggers, and the **condition** is an implementation of such capabilities.
+In [events framework proposal](https://github.com/rskvp/openfunction/OpenFunction/blob/main/docs/proposals/202107_add_event_framework.md#filter) we mentioned the need to add conditional judgement capabilities to the event framework's triggers, and the **condition** is an implementation of such capabilities.
 
 ## Design
 
@@ -220,7 +220,7 @@ Import the configuration:
 export CONFIG="eyJidXNDb21wb25lbnQiOiJ0cmlnZ2VyIiwiYnVzVG9waWMiOlt7Im5hbWUiOiJBIiwibmFtZXNwYWNlIjoiZGVmYXVsdCIsImV2ZW50U291cmNlIjoibXktZXZlbnRzb3VyY2UiLCJldmVudCI6InNhbXBsZS1vbmUifSx7Im5hbWUiOiJCIiwibmFtZXNwYWNlIjoiZGVmYXVsdCIsImV2ZW50U291cmNlIjoibXktZXZlbnRzb3VyY2UiLCJldmVudCI6InNhbXBsZS10d28ifV0sInN1YnNjcmliZXJzIjp7IkEgXHUwMDI2XHUwMDI2IEIiOnsidG9waWMiOiJtZXRyaWNzIn0sIkEgfHwgQiI6eyJzaW5rQ29tcG9uZW50IjoiaHR0cC1zaW5rIn19LCJwb3J0IjoiNTA1MCJ9"
 ```
 
-Clone [OpenFunction/events-handlers](https://github.com/OpenFunction/events-handlers) to local and go to `trigger/handler`.
+Clone [OpenFunction/events-handlers](https://github.com/rskvp/openfunction/events-handlers) to local and go to `trigger/handler`.
 
 Start the program using the dapr command line, specifying the `--profile-port` and `--enable-profiling`:
 

@@ -14,7 +14,7 @@
 
 OpenFunction provides an event handling framework called OpenFunction events that complements the event-driven capabilities of OpenFunction as a FaaS framework.
 
-You can refer to [OpenFunction Events Framework Concepts](https://github.com/OpenFunction/OpenFunction/blob/main/docs/concepts/OpenFunction-events-framework.md) for more information.
+You can refer to [OpenFunction Events Framework Concepts](https://github.com/rskvp/openfunction/OpenFunction/blob/main/docs/concepts/OpenFunction-events-framework.md) for more information.
 
 ### Core CRDs
 
@@ -37,7 +37,7 @@ The goal of `Builder` is to compile the user's function source code into an appl
 
 It will fetch the code from the code repository, build the application image locally and publish it to the container image repository.
 
-Currently, OpenFunction Builder uses [Shipwright and Cloud Native Buildpacks](https://github.com/OpenFunction/OpenFunction#shipwright-and-cloud-native-buildpacks) to build container images.
+Currently, OpenFunction Builder uses [Shipwright and Cloud Native Buildpacks](https://github.com/rskvp/openfunction/OpenFunction#shipwright-and-cloud-native-buildpacks) to build container images.
 
 ##### Shipwright and Cloud Native Buildpacks
 
@@ -51,7 +51,7 @@ OpenFunction Builder controls the build process of application images by [Shipwr
 
 The goal of `Serving` is to run functions in a highly elastic manner (dynamically scale 0 <-> N).
 
-Currently, OpenFunction supports two serving runtimes, [Knative](https://github.com/OpenFunction/OpenFunction#knative) and [OpenFuncAsync](https://github.com/OpenFunction/OpenFunction#openfuncasync). At least one of these runtimes is required.
+Currently, OpenFunction supports two serving runtimes, [Knative](https://github.com/rskvp/openfunction/OpenFunction#knative) and [OpenFuncAsync](https://github.com/rskvp/openfunction/OpenFunction#openfuncasync). At least one of these runtimes is required.
 
 ##### Knative
 
@@ -61,7 +61,7 @@ Knative Serving builds on Kubernetes to support deploying and serving serverless
 
 OpenFuncAsync is an event-driven Serving runtime. It is implemented based on KEDA + Dapr.
 
-You can refer to [Prerequisites](https://github.com/OpenFunction/OpenFunction#prerequisites) and use `--with-openFuncAsync` to install OpenFuncAsync runtime.
+You can refer to [Prerequisites](https://github.com/rskvp/openfunction/OpenFunction#prerequisites) and use `--with-openFuncAsync` to install OpenFuncAsync runtime.
 
 The OpenFuncAsync functions can be triggered by various event types, such as MQ, cronjob, DB events, etc. In a Kubernetes cluster, OpenFuncAsync functions run in the form of deployments or jobs.
 
@@ -75,7 +75,7 @@ http://<domain-name>.<domain-namespace>/<function-namespace>/<function-name>
 
 to access a function.
 
-Only one `Domain` can be defined in a cluster. A `Domain` requires a `Ingress Controller`. By default, we use `nginx-ingress`. You can refer to [Prerequisites](https://github.com/OpenFunction/OpenFunction#prerequisites) and use `--with-ingress` to install it, or install it manually. If the `nginx-ingress` does not use the default namespace and name, please modify the `config/domain/default-domain.yaml`, and run
+Only one `Domain` can be defined in a cluster. A `Domain` requires a `Ingress Controller`. By default, we use `nginx-ingress`. You can refer to [Prerequisites](https://github.com/rskvp/openfunction/OpenFunction#prerequisites) and use `--with-ingress` to install it, or install it manually. If the `nginx-ingress` does not use the default namespace and name, please modify the `config/domain/default-domain.yaml`, and run
 
 ```
 make manifests

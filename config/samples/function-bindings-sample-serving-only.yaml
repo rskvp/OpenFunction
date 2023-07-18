@@ -13,7 +13,7 @@ spec:
 #      FUNC_NAME: "HandleKafkaInput"
 #      FUNC_CLEAR_SOURCE: "true"
 #    srcRepo:
-#      url: "https://github.com/OpenFunction/samples.git"
+#      url: "https://github.com/rskvp/openfunction/samples.git"
 #      sourceSubPath: "functions/async/bindings/kafka-input"
   serving:
     runtime: async
@@ -55,7 +55,7 @@ spec:
 #      FUNC_NAME: "HandleCronInput"
 #      FUNC_CLEAR_SOURCE: "true"
 #    srcRepo:
-#      url: "https://github.com/OpenFunction/samples.git"
+#      url: "https://github.com/rskvp/openfunction/samples.git"
 #      sourceSubPath: "functions/async/bindings/cron-input-kafka-output"
   serving:
     template:

@@ -49,11 +49,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/source"
 	k8sgatewayapiv1alpha2 "sigs.k8s.io/gateway-api/apis/v1alpha2"
 
-	openfunction "github.com/openfunction/apis/core/v1beta2"
-	networkingv1alpha1 "github.com/openfunction/apis/networking/v1alpha1"
-	"github.com/openfunction/pkg/constants"
-	"github.com/openfunction/pkg/core/serving/common"
-	"github.com/openfunction/pkg/util"
+	openfunction "github.com/rskvp/openfunction/apis/core/v1beta2"
+	networkingv1alpha1 "github.com/rskvp/openfunction/apis/networking/v1alpha1"
+	"github.com/rskvp/openfunction/pkg/constants"
+	"github.com/rskvp/openfunction/pkg/core/serving/common"
+	"github.com/rskvp/openfunction/pkg/util"
 )
 
 const (

@@ -36,7 +36,7 @@ SYNAPSE](https://github.com/serverlessworkflow/synapse), [FunctionGraph](https:/
 
 ## v0.5.0, Dec 2021
 
-- [x] Deprecate the old install/uninstall scripts in favor of the cli tool [ofn](https://github.com/OpenFunction/cli/releases)
+- [x] Deprecate the old install/uninstall scripts in favor of the cli tool [ofn](https://github.com/rskvp/openfunction/cli/releases)
 - [x] Now OpenFunction is compatible with K8s 1.17 ~ 1.20+.
 - [x] Deprecate the core v1alpha1 API which will be removed in the next release.
 - [x] Add build and serving timeout.
@@ -52,11 +52,11 @@ SYNAPSE](https://github.com/serverlessworkflow/synapse), [FunctionGraph](https:/
 - [x] Make event handlers self-driven.
 - [x] Update dependent components(Tekton, Knative, Shipwright, and Dapr) and go version.
 - [x] Add [OpenFunction Website](https://openfunction.dev/).
-- [x] Add [OpenFunction CLI](https://github.com/OpenFunction/cli).
+- [x] Add [OpenFunction CLI](https://github.com/rskvp/openfunction/cli).
 - [x] Add Ruby builder. 
 - [x] Supports multiple input sources
 - [x] OpenFunction/functions-framework-nodejs now support OpenFunctionAsync function.
-- [x] Add [event source & trigger functions](https://github.com/OpenFunction/events-handlers).
+- [x] Add [event source & trigger functions](https://github.com/rskvp/openfunction/events-handlers).
 
 ## v0.3.0, July ~ August 2021
 

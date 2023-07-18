@@ -7,9 +7,9 @@
 </p>
 
 <p align=center>
-<a href="https://goreportcard.com/report/github.com/openfunction/openfunction"><img src="https://goreportcard.com/badge/github.com/openfunction/openfunction" alt="A+"></a>
+<a href="https://goreportcard.com/report/github.com/rskvp/openfunction/openfunction"><img src="https://goreportcard.com/badge/github.com/rskvp/openfunction/openfunction" alt="A+"></a>
 <a href="https://hub.docker.com/r/openfunction/openfunction"><img src="https://img.shields.io/docker/pulls/openfunction/openfunction"></a>
-<a href="https://github.com/OpenFunction/OpenFunction/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/openfunction/openfunction?label=good%20first%20issues" alt="good first"></a>
+<a href="https://github.com/rskvp/openfunction/OpenFunction/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22"><img src="https://img.shields.io/github/issues/openfunction/openfunction?label=good%20first%20issues" alt="good first"></a>
 <a href="https://twitter.com/intent/follow?screen_name=KubeSphere"><img src="https://img.shields.io/twitter/follow/KubeSphere?style=social" alt="follow on Twitter"></a>
 <a href="https://cloud-native.slack.com/archives/C03ETDMD3LZ"><img src="https://img.shields.io/badge/Slack-600%2B-blueviolet?logo=slack&amp;logoColor=white"></a>
 <a href="https://www.youtube.com/channel/UCyTdUQUYjf7XLjxECx63Hpw"><img src="https://img.shields.io/youtube/channel/subscribers/UCyTdUQUYjf7XLjxECx63Hpw?style=social"></a>
@@ -42,7 +42,7 @@ OpenFunction manages its components in the form of Custom Resource Definitions (
 
 <div align=center><img src=docs/images/OpenFunction-events-architecture.svg></div>
 
-OpenFunction Events is OpenFunction's events framework, you can refer to [OpenFunction Events](https://github.com/OpenFunction/OpenFunction/blob/main/docs/concepts/OpenFunction-events-framework.md) for more information.
+OpenFunction Events is OpenFunction's events framework, you can refer to [OpenFunction Events](https://github.com/rskvp/openfunction/OpenFunction/blob/main/docs/concepts/OpenFunction-events-framework.md) for more information.
 
 ## 🚀 QuickStart
 
@@ -72,11 +72,11 @@ Here you can find OpenFunction [roadmap](https://github.com/orgs/OpenFunction/pr
 
 ## 🏘️ Community
 
-### [Contact Us](https://github.com/OpenFunction/community#contact-us)
+### [Contact Us](https://github.com/rskvp/openfunction/community#contact-us)
 
-### [Community Call](https://github.com/OpenFunction/community#community-call)
+### [Community Call](https://github.com/rskvp/openfunction/community#community-call)
 
-### [Events](https://github.com/OpenFunction/community#events)
+### [Events](https://github.com/rskvp/openfunction/community#events)
 
 ## Landscape
  

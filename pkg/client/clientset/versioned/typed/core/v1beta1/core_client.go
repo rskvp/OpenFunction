@@ -20,8 +20,8 @@ package v1beta1
 import (
 	rest "k8s.io/client-go/rest"
 
-	v1beta1 "github.com/openfunction/apis/core/v1beta1"
-	"github.com/openfunction/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/rskvp/openfunction/apis/core/v1beta1"
+	"github.com/rskvp/openfunction/pkg/client/clientset/versioned/scheme"
 )
 
 type CoreV1beta1Interface interface {

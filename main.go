@@ -23,7 +23,7 @@ import (
 	"syscall"
 	"time"
 
-	corev1beta1 "github.com/openfunction/apis/core/v1beta1"
+	corev1beta1 "github.com/rskvp/openfunction/apis/core/v1beta1"
 
 	componentsv1alpha1 "github.com/dapr/dapr/pkg/apis/components/v1alpha1"
 	kedav1alpha1 "github.com/kedacore/keda/v2/api/v1alpha1"
@@ -41,14 +41,14 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 	k8sgatewayapiv1alpha2 "sigs.k8s.io/gateway-api/apis/v1alpha2"
 
-	corev1beta2 "github.com/openfunction/apis/core/v1beta2"
-	openfunctionevent "github.com/openfunction/apis/events/v1alpha1"
-	networkingv1alpha1 "github.com/openfunction/apis/networking/v1alpha1"
-	"github.com/openfunction/controllers/core"
-	eventcontrollers "github.com/openfunction/controllers/events"
-	networkingcontrollers "github.com/openfunction/controllers/networking"
-	"github.com/openfunction/pkg/core/builder"
-	"github.com/openfunction/pkg/core/serving"
+	corev1beta2 "github.com/rskvp/openfunction/apis/core/v1beta2"
+	openfunctionevent "github.com/rskvp/openfunction/apis/events/v1alpha1"
+	networkingv1alpha1 "github.com/rskvp/openfunction/apis/networking/v1alpha1"
+	"github.com/rskvp/openfunction/controllers/core"
+	eventcontrollers "github.com/rskvp/openfunction/controllers/events"
+	networkingcontrollers "github.com/rskvp/openfunction/controllers/networking"
+	"github.com/rskvp/openfunction/pkg/core/builder"
+	"github.com/rskvp/openfunction/pkg/core/serving"
 	//+kubebuilder:scaffold:imports
 )
 

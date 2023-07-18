@@ -24,7 +24,7 @@ import (
 	"gopkg.in/yaml.v3"
 	"sigs.k8s.io/controller-runtime/pkg/conversion"
 
-	"github.com/openfunction/apis/core/v1beta2"
+	"github.com/rskvp/openfunction/apis/core/v1beta2"
 )
 
 // +kubebuilder:docs-gen:collapse=Imports

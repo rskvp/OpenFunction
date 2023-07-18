@@ -20,8 +20,8 @@ package v1alpha1
 import (
 	rest "k8s.io/client-go/rest"
 
-	v1alpha1 "github.com/openfunction/apis/networking/v1alpha1"
-	"github.com/openfunction/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/rskvp/openfunction/apis/networking/v1alpha1"
+	"github.com/rskvp/openfunction/pkg/client/clientset/versioned/scheme"
 )
 
 type NetworkingV1alpha1Interface interface {

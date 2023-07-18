@@ -2,7 +2,7 @@
 
 ## Step 1. Fork
 
-1. Visit https://github.com/OpenFunction/OpenFunction
+1. Visit https://github.com/rskvp/openfunction/OpenFunction
 2. Click `Fork` button to create a fork of the project to your GitHub account.
 
 ## Step 2. Clone fork to local storage
@@ -23,7 +23,7 @@ mkdir -p $working_dir
 cd $working_dir
 git clone https://github.com/$user/OpenFunction.git
 cd $working_dir/OpenFunction
-git remote add upstream https://github.com/OpenFunction/OpenFunction.git
+git remote add upstream https://github.com/rskvp/openfunction/OpenFunction.git
 
 # Never push to upstream master
 git remote set-url --push upstream no_push

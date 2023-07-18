@@ -24,9 +24,9 @@ import (
 	kedav1alpha1 "github.com/kedacore/keda/v2/api/v1alpha1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	ofcore "github.com/openfunction/apis/core/v1beta1"
-	ofevent "github.com/openfunction/apis/events/v1alpha1"
-	"github.com/openfunction/pkg/event"
+	ofcore "github.com/rskvp/openfunction/apis/core/v1beta1"
+	ofevent "github.com/rskvp/openfunction/apis/events/v1alpha1"
+	"github.com/rskvp/openfunction/pkg/event"
 )
 
 const (

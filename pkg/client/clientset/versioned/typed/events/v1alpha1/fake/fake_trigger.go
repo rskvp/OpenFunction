@@ -27,7 +27,7 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	testing "k8s.io/client-go/testing"
 
-	v1alpha1 "github.com/openfunction/apis/events/v1alpha1"
+	v1alpha1 "github.com/rskvp/openfunction/apis/events/v1alpha1"
 )
 
 // FakeTriggers implements TriggerInterface

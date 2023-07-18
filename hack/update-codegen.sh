@@ -43,10 +43,10 @@ echo ">> Temporary output directory ${TEMP_DIR}"
 chmod +x ${CODEGEN_PKG}/generate-groups.sh
 
 ${CODEGEN_PKG}/generate-groups.sh "client" \
-    github.com/openfunction/pkg/client github.com/openfunction/apis \
+    github.com/rskvp/openfunction/pkg/client github.com/rskvp/openfunction/apis \
     "core:v1beta1,v1beta2 events:v1alpha1 networking:v1alpha1" \
     --output-base "${TEMP_DIR}" \
     --go-header-file ${SCRIPT_ROOT}/hack/boilerplate.go.txt
    
 # Copy everything back.
-cp -r "${TEMP_DIR}/github.com/openfunction/." "${SCRIPT_ROOT}/"
+cp -r "${TEMP_DIR}/github.com/rskvp/openfunction/." "${SCRIPT_ROOT}/"

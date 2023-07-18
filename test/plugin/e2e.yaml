@@ -37,7 +37,7 @@ setup:
 
     - name: install ofn
       command: |
-        wget -c  https://github.com/OpenFunction/cli/releases/latest/download/ofn_linux_amd64.tar.gz -O - | tar -xz
+        wget -c  https://github.com/rskvp/openfunction/cli/releases/latest/download/ofn_linux_amd64.tar.gz -O - | tar -xz
         chmod +x ofn && mv ofn /usr/local/bin/
 
     - name: install OpenFunction

@@ -31,8 +31,8 @@ import (
 	kservingv1 "knative.dev/serving/pkg/apis/serving/v1"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	ofcore "github.com/openfunction/apis/core/v1beta1"
-	ofevent "github.com/openfunction/apis/events/v1alpha1"
+	ofcore "github.com/rskvp/openfunction/apis/core/v1beta1"
+	ofevent "github.com/rskvp/openfunction/apis/events/v1alpha1"
 )
 
 const (

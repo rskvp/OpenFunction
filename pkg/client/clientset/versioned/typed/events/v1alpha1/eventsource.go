@@ -26,8 +26,8 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
 
-	v1alpha1 "github.com/openfunction/apis/events/v1alpha1"
-	scheme "github.com/openfunction/pkg/client/clientset/versioned/scheme"
+	v1alpha1 "github.com/rskvp/openfunction/apis/events/v1alpha1"
+	scheme "github.com/rskvp/openfunction/pkg/client/clientset/versioned/scheme"
 )
 
 // EventSourcesGetter has a method to return a EventSourceInterface.

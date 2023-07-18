@@ -35,11 +35,11 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 
-	openfunction "github.com/openfunction/apis/core/v1beta2"
-	"github.com/openfunction/pkg/constants"
-	"github.com/openfunction/pkg/core"
-	"github.com/openfunction/pkg/core/serving/common"
-	"github.com/openfunction/pkg/util"
+	openfunction "github.com/rskvp/openfunction/apis/core/v1beta2"
+	"github.com/rskvp/openfunction/pkg/constants"
+	"github.com/rskvp/openfunction/pkg/core"
+	"github.com/rskvp/openfunction/pkg/core/serving/common"
+	"github.com/rskvp/openfunction/pkg/util"
 )
 
 const (

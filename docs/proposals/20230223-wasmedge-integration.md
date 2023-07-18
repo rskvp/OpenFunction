@@ -104,7 +104,7 @@ spec:
     #     kind: ClusterBuildStrategy
     dockerfile: "Dockerfile"
     srcRepo:
-      url: "https://github.com/OpenFunction/samples"
+      url: "https://github.com/rskvp/openfunction/samples"
       sourceSubPath: "functions/knative/wasmedge/http-server"
       revision: "main"
   port: 8080

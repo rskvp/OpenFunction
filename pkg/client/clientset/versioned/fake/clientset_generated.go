@@ -24,15 +24,15 @@ import (
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
 
-	clientset "github.com/openfunction/pkg/client/clientset/versioned"
-	corev1beta1 "github.com/openfunction/pkg/client/clientset/versioned/typed/core/v1beta1"
-	fakecorev1beta1 "github.com/openfunction/pkg/client/clientset/versioned/typed/core/v1beta1/fake"
-	corev1beta2 "github.com/openfunction/pkg/client/clientset/versioned/typed/core/v1beta2"
-	fakecorev1beta2 "github.com/openfunction/pkg/client/clientset/versioned/typed/core/v1beta2/fake"
-	eventsv1alpha1 "github.com/openfunction/pkg/client/clientset/versioned/typed/events/v1alpha1"
-	fakeeventsv1alpha1 "github.com/openfunction/pkg/client/clientset/versioned/typed/events/v1alpha1/fake"
-	networkingv1alpha1 "github.com/openfunction/pkg/client/clientset/versioned/typed/networking/v1alpha1"
-	fakenetworkingv1alpha1 "github.com/openfunction/pkg/client/clientset/versioned/typed/networking/v1alpha1/fake"
+	clientset "github.com/rskvp/openfunction/pkg/client/clientset/versioned"
+	corev1beta1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/core/v1beta1"
+	fakecorev1beta1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/core/v1beta1/fake"
+	corev1beta2 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/core/v1beta2"
+	fakecorev1beta2 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/core/v1beta2/fake"
+	eventsv1alpha1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/events/v1alpha1"
+	fakeeventsv1alpha1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/events/v1alpha1/fake"
+	networkingv1alpha1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/networking/v1alpha1"
+	fakenetworkingv1alpha1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/networking/v1alpha1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

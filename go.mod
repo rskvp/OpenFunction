@@ -1,4 +1,4 @@
-module github.com/openfunction
+module github.com/rskvp/openfunction
 
 go 1.18
 

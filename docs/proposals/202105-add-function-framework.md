@@ -380,8 +380,8 @@ package main
 
 import (
     "context"
-    "github.com/OpenFunction/functions-framework-go/functionframeworks"
-    userfunction "github.com/OpenFunction/functions-framework-go/testdata/demo"
+    "github.com/rskvp/openfunction/functions-framework-go/functionframeworks"
+    userfunction "github.com/rskvp/openfunction/functions-framework-go/testdata/demo"
     cloudevents "github.com/cloudevents/sdk-go/v2"
     "log"
     "net/http"

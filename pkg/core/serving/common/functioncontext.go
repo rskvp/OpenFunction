@@ -16,7 +16,7 @@ limitations under the License.
 
 package common
 
-import openfunction "github.com/openfunction/apis/core/v1beta2"
+import openfunction "github.com/rskvp/openfunction/apis/core/v1beta2"
 
 type functionContextV1beta1 struct {
 	Name           string                     `json:"name"`

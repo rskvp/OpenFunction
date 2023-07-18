@@ -1,6 +1,6 @@
 # Pull Request Process
 
-This document explains the process and best practices for submitting a PR to the [OpenFunction project](https://github.com/OpenFunction/OpenFunction). It should serve as a reference for all contributors, and be useful especially to new and infrequent submitters.
+This document explains the process and best practices for submitting a PR to the [OpenFunction project](https://github.com/rskvp/openfunction/OpenFunction). It should serve as a reference for all contributors, and be useful especially to new and infrequent submitters.
 
 - [Before You Submit a PR](#before-you-submit-a-pr)
   - [Run Local Verifications](#run-local-verifications)

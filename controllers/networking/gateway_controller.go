@@ -44,9 +44,9 @@ import (
 	ctrl "sigs.k8s.io/controller-runtime"
 	k8sgatewayapiv1alpha2 "sigs.k8s.io/gateway-api/apis/v1alpha2"
 
-	networkingv1alpha1 "github.com/openfunction/apis/networking/v1alpha1"
-	ofngateway "github.com/openfunction/pkg/networking/gateway"
-	"github.com/openfunction/pkg/util"
+	networkingv1alpha1 "github.com/rskvp/openfunction/apis/networking/v1alpha1"
+	ofngateway "github.com/rskvp/openfunction/pkg/networking/gateway"
+	"github.com/rskvp/openfunction/pkg/util"
 )
 
 const (

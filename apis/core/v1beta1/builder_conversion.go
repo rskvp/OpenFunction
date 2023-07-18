@@ -22,7 +22,7 @@ package v1beta1
 import (
 	"sigs.k8s.io/controller-runtime/pkg/conversion"
 
-	"github.com/openfunction/apis/core/v1beta2"
+	"github.com/rskvp/openfunction/apis/core/v1beta2"
 )
 
 // +kubebuilder:docs-gen:collapse=Imports

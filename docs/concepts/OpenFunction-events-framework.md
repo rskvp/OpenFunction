@@ -104,7 +104,7 @@ In this sample, the event source is a Kafka server and the target function is a 
 
 - A Kafka server (event source)
 
-  You can refer to [Prerequisites - kafka](https://github.com/OpenFunction/samples/blob/main/Prerequisites.md#kafka) to deploy a Kafka server with the name `kafka-server` and the topic name `events-sample`.
+  You can refer to [Prerequisites - kafka](https://github.com/rskvp/openfunction/samples/blob/main/Prerequisites.md#kafka) to deploy a Kafka server with the name `kafka-server` and the topic name `events-sample`.
 
 
 Create an EventSource configuration `eventsource-sink.yaml` :
@@ -263,7 +263,7 @@ serving-4x5wh-ksvc-wxbf2-v100-deployment-5c495c84f6-8n6mk      2/2     Running  
 
 - A Kafka server (event source)
 
-  You can refer to [Prerequisites - kafka](https://github.com/OpenFunction/samples/blob/main/Prerequisites.md#kafka) to deploy a Kafka server with the name `kafka-server` and the topic name `events-sample`.
+  You can refer to [Prerequisites - kafka](https://github.com/rskvp/openfunction/samples/blob/main/Prerequisites.md#kafka) to deploy a Kafka server with the name `kafka-server` and the topic name `events-sample`.
 
 - A Nats streaming server (event bus)
 

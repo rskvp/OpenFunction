@@ -12,7 +12,7 @@ resources:
   domain: openfunction.io
   group: events
   kind: EventSource
-  path: github.com/openfunction/apis/events/v1alpha1
+  path: github.com/rskvp/openfunction/apis/events/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -21,7 +21,7 @@ resources:
   domain: openfunction.io
   group: events
   kind: EventBus
-  path: github.com/openfunction/apis/events/v1alpha1
+  path: github.com/rskvp/openfunction/apis/events/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -30,7 +30,7 @@ resources:
   domain: openfunction.io
   group: events
   kind: Trigger
-  path: github.com/openfunction/apis/events/v1alpha1
+  path: github.com/rskvp/openfunction/apis/events/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -38,7 +38,7 @@ resources:
   domain: openfunction.io
   group: events
   kind: ClusterEventBus
-  path: github.com/openfunction/apis/events/v1alpha1
+  path: github.com/rskvp/openfunction/apis/events/v1alpha1
   version: v1alpha1
 - api:
     crdVersion: v1
@@ -46,7 +46,7 @@ resources:
   domain: openfunction.io
   group: core
   kind: Function
-  path: github.com/openfunction/apis/core/v1beta1
+  path: github.com/rskvp/openfunction/apis/core/v1beta1
   version: v1beta1
 - api:
     crdVersion: v1
@@ -54,7 +54,7 @@ resources:
   domain: openfunction.io
   group: core
   kind: Serving
-  path: github.com/openfunction/apis/core/v1beta1
+  path: github.com/rskvp/openfunction/apis/core/v1beta1
   version: v1beta1
 - api:
     crdVersion: v1
@@ -62,7 +62,7 @@ resources:
   domain: openfunction.io
   group: core
   kind: Builder
-  path: github.com/openfunction/apis/core/v1beta1
+  path: github.com/rskvp/openfunction/apis/core/v1beta1
   version: v1beta1
 - api:
     crdVersion: v1
@@ -71,7 +71,7 @@ resources:
   domain: openfunction.io
   group: networking
   kind: Gateway
-  path: github.com/openfunction/apis/networking/v1alpha1
+  path: github.com/rskvp/openfunction/apis/networking/v1alpha1
   version: v1alpha1
   webhooks:
     defaulting: true

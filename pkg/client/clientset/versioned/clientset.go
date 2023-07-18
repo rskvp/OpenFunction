@@ -24,10 +24,10 @@ import (
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
 
-	corev1beta1 "github.com/openfunction/pkg/client/clientset/versioned/typed/core/v1beta1"
-	corev1beta2 "github.com/openfunction/pkg/client/clientset/versioned/typed/core/v1beta2"
-	eventsv1alpha1 "github.com/openfunction/pkg/client/clientset/versioned/typed/events/v1alpha1"
-	networkingv1alpha1 "github.com/openfunction/pkg/client/clientset/versioned/typed/networking/v1alpha1"
+	corev1beta1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/core/v1beta1"
+	corev1beta2 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/core/v1beta2"
+	eventsv1alpha1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/events/v1alpha1"
+	networkingv1alpha1 "github.com/rskvp/openfunction/pkg/client/clientset/versioned/typed/networking/v1alpha1"
 )
 
 type Interface interface {

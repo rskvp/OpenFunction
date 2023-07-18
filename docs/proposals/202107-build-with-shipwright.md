@@ -133,7 +133,7 @@ metadata:
   name: buildpack-hello-world
 spec:
   source:
-    url: https://github.com/OpenFunction/samples
+    url: https://github.com/rskvp/openfunction/samples
     contextDir: functions-framework/Knative/simple-hello/userfunction
   strategy:
     name: openfunction
@@ -189,7 +189,7 @@ spec:
       FUNC_TYPE: "http"
       #FUNC_SRC: "main.py"
     srcRepo:
-      url: "https://github.com/OpenFunction/samples.git"
+      url: "https://github.com/rskvp/openfunction/samples.git"
       sourceSubPath: "functions/Knative/hello-world-go"
     registry:
       url: "https://index.docker.io/v1/"
@@ -222,7 +222,7 @@ spec:
     FUNC_TYPE: "http"
       #FUNC_SRC: "main.py"
   srcRepo:
-    url: "https://github.com/OpenFunction/samples.git"
+    url: "https://github.com/rskvp/openfunction/samples.git"
       sourceSubPath: "functions/Knative/hello-world-go"
   registry:
     url: "https://index.docker.io/v1/"

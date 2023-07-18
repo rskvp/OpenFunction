@@ -114,7 +114,7 @@ spec:
 #     # Use FUNC_GOPROXY to set the goproxy if failed to fetch go modules
 #     FUNC_GOPROXY: "https://goproxy.cn"
     srcRepo:
-      url: "https://github.com/OpenFunction/samples.git"
+      url: "https://github.com/rskvp/openfunction/samples.git"
       sourceSubPath: "functions/async/logs-handler-function/"
       revision: "main"
   serving:

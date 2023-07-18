@@ -31,8 +31,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/fake"
 
-	ofcore "github.com/openfunction/apis/core/v1beta1"
-	ofevent "github.com/openfunction/apis/events/v1alpha1"
+	ofcore "github.com/rskvp/openfunction/apis/core/v1beta1"
+	ofevent "github.com/rskvp/openfunction/apis/events/v1alpha1"
 )
 
 func Test_createSinkComponent(t *testing.T) {

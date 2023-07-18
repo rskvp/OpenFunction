@@ -17,7 +17,7 @@ limitations under the License.
 package core
 
 import (
-	openfunction "github.com/openfunction/apis/core/v1beta2"
+	openfunction "github.com/rskvp/openfunction/apis/core/v1beta2"
 )
 
 const (

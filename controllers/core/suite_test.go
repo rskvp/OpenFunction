@@ -29,7 +29,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	openfunction "github.com/openfunction/apis/core/v1beta1"
+	openfunction "github.com/rskvp/openfunction/apis/core/v1beta1"
 	//+kubebuilder:scaffold:imports
 )
 

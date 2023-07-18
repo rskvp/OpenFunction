@@ -30,7 +30,7 @@ import (
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	eventv1alpha1 "github.com/openfunction/apis/events/v1alpha1"
+	eventv1alpha1 "github.com/rskvp/openfunction/apis/events/v1alpha1"
 	//+kubebuilder:scaffold:imports
 )
 

@@ -21,8 +21,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/client/apiutil"
 
-	"github.com/openfunction/pkg/core/serving/knative"
-	"github.com/openfunction/pkg/core/serving/openfuncasync"
+	"github.com/rskvp/openfunction/pkg/core/serving/knative"
+	"github.com/rskvp/openfunction/pkg/core/serving/openfuncasync"
 )
 
 func Registry(mgr ctrl.Manager) []client.Object {

@@ -35,11 +35,11 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller/controllerutil"
 
-	openfunctionv1beta1 "github.com/openfunction/apis/core/v1beta1"
-	openfunction "github.com/openfunction/apis/core/v1beta2"
-	"github.com/openfunction/pkg/constants"
-	"github.com/openfunction/pkg/core"
-	"github.com/openfunction/pkg/util"
+	openfunctionv1beta1 "github.com/rskvp/openfunction/apis/core/v1beta1"
+	openfunction "github.com/rskvp/openfunction/apis/core/v1beta2"
+	"github.com/rskvp/openfunction/pkg/constants"
+	"github.com/rskvp/openfunction/pkg/core"
+	"github.com/rskvp/openfunction/pkg/util"
 )
 
 // DaprServiceMode is the inject mode for Dapr sidecar

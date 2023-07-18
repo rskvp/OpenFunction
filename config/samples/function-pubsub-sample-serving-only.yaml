@@ -70,7 +70,7 @@ spec:
 #      # Use FUNC_GOPROXY to set the goproxy
 #      # FUNC_GOPROXY: "https://goproxy.cn"
 #    srcRepo:
-#      url: "https://github.com/OpenFunction/samples.git"
+#      url: "https://github.com/rskvp/openfunction/samples.git"
 #      sourceSubPath: "functions/async/pubsub/subscriber"
   serving:
     runtime: "async"

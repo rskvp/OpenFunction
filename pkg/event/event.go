@@ -20,7 +20,7 @@ import (
 	componentsv1alpha1 "github.com/dapr/dapr/pkg/apis/components/v1alpha1"
 	kedav1alpha1 "github.com/kedacore/keda/v2/api/v1alpha1"
 
-	ofcore "github.com/openfunction/apis/core/v1beta1"
+	ofcore "github.com/rskvp/openfunction/apis/core/v1beta1"
 )
 
 type OpenFunctionEventSource interface {

@@ -79,7 +79,7 @@ In this proposal I will named the command line tool for OpenFunction `fn`.
         --builder "openfunction/gcp-builder:v1" \
         --params GOOGLE_FUNCTION_TARGET:"HelloWorld" \
         --params GOOGLE_FUNCTION_SIGNATURE_TYPE:"http" \
-        --src-repo "https://github.com/OpenFunction/function-samples.git" \
+        --src-repo "https://github.com/rskvp/openfunction/function-samples.git" \
         --src-name "hello-world-go" \
         --registry-url "https://index.docker.io/v1/" \
         --registry-username lamiar --registry-password *****
@@ -134,7 +134,7 @@ In this proposal I will named the command line tool for OpenFunction `fn`.
       --builder "openfunction/gcp-builder:v1" \
       --params GOOGLE_FUNCTION_TARGET:"HelloWorld" \
       --params GOOGLE_FUNCTION_SIGNATURE_TYPE:"http" \
-      --src-repo "https://github.com/OpenFunction/function-samples.git" \
+      --src-repo "https://github.com/rskvp/openfunction/function-samples.git" \
       --src-name "hello-world-go" \
       --registry-url "https://index.docker.io/v1/" \
       --registry-username lamiar --registry-password ***** \

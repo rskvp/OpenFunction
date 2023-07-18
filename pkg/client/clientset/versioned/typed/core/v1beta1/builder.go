@@ -26,8 +26,8 @@ import (
 	watch "k8s.io/apimachinery/pkg/watch"
 	rest "k8s.io/client-go/rest"
 
-	v1beta1 "github.com/openfunction/apis/core/v1beta1"
-	scheme "github.com/openfunction/pkg/client/clientset/versioned/scheme"
+	v1beta1 "github.com/rskvp/openfunction/apis/core/v1beta1"
+	scheme "github.com/rskvp/openfunction/pkg/client/clientset/versioned/scheme"
 )
 
 // BuildersGetter has a method to return a BuilderInterface.

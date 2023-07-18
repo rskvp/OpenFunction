@@ -31,12 +31,12 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 
-	openfunction "github.com/openfunction/apis/core/v1beta2"
-	"github.com/openfunction/pkg/constants"
-	"github.com/openfunction/pkg/core"
-	"github.com/openfunction/pkg/core/serving/knative"
-	"github.com/openfunction/pkg/core/serving/openfuncasync"
-	"github.com/openfunction/pkg/util"
+	openfunction "github.com/rskvp/openfunction/apis/core/v1beta2"
+	"github.com/rskvp/openfunction/pkg/constants"
+	"github.com/rskvp/openfunction/pkg/core"
+	"github.com/rskvp/openfunction/pkg/core/serving/knative"
+	"github.com/rskvp/openfunction/pkg/core/serving/openfuncasync"
+	"github.com/rskvp/openfunction/pkg/util"
 )
 
 var doOnce sync.Once

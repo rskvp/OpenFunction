@@ -38,14 +38,14 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 
-	ofcore "github.com/openfunction/apis/core/v1beta1"
-	ofevent "github.com/openfunction/apis/events/v1alpha1"
-	"github.com/openfunction/pkg/event/eventbus/natsstreaming"
-	"github.com/openfunction/pkg/event/eventsource/cron"
-	"github.com/openfunction/pkg/event/eventsource/kafka"
-	"github.com/openfunction/pkg/event/eventsource/mqtt"
-	"github.com/openfunction/pkg/event/eventsource/redis"
-	"github.com/openfunction/pkg/util"
+	ofcore "github.com/rskvp/openfunction/apis/core/v1beta1"
+	ofevent "github.com/rskvp/openfunction/apis/events/v1alpha1"
+	"github.com/rskvp/openfunction/pkg/event/eventbus/natsstreaming"
+	"github.com/rskvp/openfunction/pkg/event/eventsource/cron"
+	"github.com/rskvp/openfunction/pkg/event/eventsource/kafka"
+	"github.com/rskvp/openfunction/pkg/event/eventsource/mqtt"
+	"github.com/rskvp/openfunction/pkg/event/eventsource/redis"
+	"github.com/rskvp/openfunction/pkg/util"
 )
 
 const (
@@ -112,18 +112,18 @@ func (r *EventSourceReconciler) Reconcile(ctx context.Context, req ctrl.Request)
 }
 
 // createOrUpdateEventSource will do:
-// 1. Generate a dapr component specification for the EventBus associated with the EventSource (if spec.eventBus is set)
-//    and create the dapr component (will check if it needs to be updated)
-//    and set the EventSourceConfig.EventBusComponent, EventSourceConfig.EventBusTopic, EventSourceConfig.EventBusSpecEncode.
-// 2. Generate a dapr component specification for the Sink set in EventSource (if spec.sink is set)
-//    and create the dapr component (will check if it needs to be updated)
-//    and set the EventSourceConfig.SinkComponent, EventSourceConfig.SinkSpecEncode.
-// 3. Generate dapr component specifications for the event sources
-//    and create the dapr components (will check if they need to be updated)
-//    and set the EventSourceConfig.EventSourceComponent, EventSourceConfig.EventSourceTopic, EventSourceConfig.EventSourceSpecEncode.
-// 4. Generate EventSourceConfig and convert it to a base64-encoded string.
-// 5. Create an EventSource workload for each event source (will check if they need to be updated)
-//    and pass in the EventSourceConfig as an environment variable.
+//  1. Generate a dapr component specification for the EventBus associated with the EventSource (if spec.eventBus is set)
+//     and create the dapr component (will check if it needs to be updated)
+//     and set the EventSourceConfig.EventBusComponent, EventSourceConfig.EventBusTopic, EventSourceConfig.EventBusSpecEncode.
+//  2. Generate a dapr component specification for the Sink set in EventSource (if spec.sink is set)
+//     and create the dapr component (will check if it needs to be updated)
+//     and set the EventSourceConfig.SinkComponent, EventSourceConfig.SinkSpecEncode.
+//  3. Generate dapr component specifications for the event sources
+//     and create the dapr components (will check if they need to be updated)
+//     and set the EventSourceConfig.EventSourceComponent, EventSourceConfig.EventSourceTopic, EventSourceConfig.EventSourceSpecEncode.
+//  4. Generate EventSourceConfig and convert it to a base64-encoded string.
+//  5. Create an EventSource workload for each event source (will check if they need to be updated)
+//     and pass in the EventSourceConfig as an environment variable.
 func (r *EventSourceReconciler) createOrUpdateEventSource(ctx context.Context, log logr.Logger, eventSource *ofevent.EventSource) error {
 	defer eventSource.SaveStatus(ctx, log, r.Client)
 	log = r.Log.WithName("createOrUpdateEventSource")
